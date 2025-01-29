@@ -19,7 +19,7 @@ export const AntiCall = async (calls, client) => {
       await client.updateBlockStatus(toJid(from), 'block');
     } else {
       await client.sendMessage(from, {
-        text: 'Your Call has been Automatically Declined, No Calls Allowed',
+        text: 'Hey bruh, dont try to call me 😎',
       });
     }
   }
